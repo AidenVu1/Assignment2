@@ -3,8 +3,8 @@ d = 0
 pi=math.pi
 while True:
     try:
-      integer=float(input("what is the diameter\n"))/2
-      if integer<0:
+      d=float(input("what is the diameter\n"))/2
+      if d<0:
         print('please enter a positive number')
         continue
         
