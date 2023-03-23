@@ -7,6 +7,9 @@ while True:
       if d<0:
         print('please enter a positive number')
         continue
+      if d==0:
+        print('please enter a positive number')
+        continue
         
     except ValueError:
         print("Please enter a number")
